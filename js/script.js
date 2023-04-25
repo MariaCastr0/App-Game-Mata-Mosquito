@@ -15,7 +15,7 @@ function posiçaoRandomica() {
 
 //remover o mosquito anterior (caso exista)
 if(document.getElementById('mosquito'))
-document.getElementById('mosquito').remove()
+    document.getElementById('mosquito').remove()
 
 var posiçaoX = Math.floor(Math.random() * largura) - 90
 var posiçaoY = Math.floor(Math.random() * altura) - 90
